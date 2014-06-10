@@ -1,6 +1,6 @@
 {
   "name": "charts-theme-highcharts",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "view engine": "jade",
   "static": "./static",
   "description": "a jquery highcharts solution of Charts.",
