@@ -1,0 +1,14 @@
+html
+  head
+    title #{Theme.name} - powered by #{sys.name} v#{sys.version}
+    style.
+        *,body {
+            margin: 0;
+            padding: 0;
+        }
+  body
+    div.highcharts_container
+    script(src="#{static}/jquery-1.11.1.min.js")
+    script(src="#{static}/highcharts.js")
+    script.
+        $(function(){$('.highcharts_container').highcharts(!{data});})
